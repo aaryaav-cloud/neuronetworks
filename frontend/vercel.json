@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://aaryav-cloud.onrender.com/api/$1" },
+    { "source": "/api/(.*)", "destination": "https://neuronetworks.onrender.com/api/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
