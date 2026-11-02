@@ -333,7 +333,7 @@ function ExerciseStep({
         <p className="breath-tip">{guidance.breathing}</p>
         {ex.tips.length > 0 && (
           <details className="tips">
-            <summary>Tips from the card</summary>
+            <summary>Tips</summary>
             <ul>{ex.tips.map((t, i) => <li key={i}>{t}</li>)}</ul>
           </details>
         )}
